@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulário</title>
+</head>
+<body>
+      <h1>Fomulário Aqui</h1>
+<form action="arquivo.php" method="get">
+
+      <!--Legenda para nome-->
+      <label for="camponome" >Nome:</label>
+
+      <!--Campo  input do type text -->      
+      <input id="camponome" type="text" placeholder="Digite seu nome aqui" required>
+      <br><br>
+
+      <!--Campo input do type e-mail-->
+      <label for="Campoe-mail">E-mail</label>
+      <input id="Campoe-mail" type="email" placeholder="Digite seu e-mail" required>
+      <br><br>
+
+      <!--Campo input do type password-->
+      <label for="Camposenha">Senha</label>
+      <input id="Camposenha" type="password" placeholder="Seu senha" required>
+    
+     <br><br>
+      <!--Radio-->
+    <h2>Aninal de estimação</h2>
+    <input type="radio" id="dog" nome="animal" value="Cachorro">
+    <label for="dog">Cachorro</label>
+
+    <br><br>
+
+    <input type="radio" id="cat" nome="animal" value="Gato">
+    <label for="cat">Gato</label>
+    
+    <br><br>
+
+    <input type="radio" id="Bird" nome="animal" value="Passarinho">
+    <label for="Bird">Passarinho</label><br><br>
+     
+    <!--Checkbox-->
+    <h2>O que você tem em casa ?</h2>
+
+    <input type="checkbox" id="item1" name="item1" value="Tv">
+    <label for="item1">Tv</label> <br><br>
+
+    <input type="checkbox" id="item2" name="item2" value="Geladeira">
+    <label for="item2">Geladeira</label> <br><br>
+
+    <input type="checkbox" id="item3" name="item3" value="Computador">
+    <label for="item3">Computador</label> <br><br>
+
+    <h2>Escolha uma cor:</h2>
+    <select name="cores">
+      <option selected disabled value="">Selecione uma cor</option>
+      <option value="vermelho">Vermelho</option>
+      <option value="Azul">Azul</option>
+      <option value="Amarelo">Amarelo</option>
+      <option value="Roxo">Roxo</option>
+    </select><br><br>
+
+    <h2>Digite sua mensagem</h2>
+    <br>
+    <!---->
+    <textarea name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55" name="" id=""></textarea>
+     <br>
+
+    <!--Campo input do type submit-->
+    <button>Enviar</button>
+
+
+</form>
+<br>
+      
+      <hr><br>    
+      <a href="index.html">Voltar para prinicipal</a>
+      
+</body>
+</html>
